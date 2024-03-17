@@ -7,7 +7,7 @@ const App = () => {
   const handleChange = (e)=>{
     setTemp(parseFloat(e.target.value))
   }
-  const tofarh = (val) => {
+  const tofarh = (val) => { 
     return Math.round(((val * 9) / 5 + 32) * 100) / 100;
   };
   const tokelvin = (val) => {
