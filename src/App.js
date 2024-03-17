@@ -7,7 +7,7 @@ const App = () => {
     setTemp(parseFloat(e.target.value));
   };
   const tofarh = (val) => {
-    return 96;
+    return 101;
   };
 
   const tokelvin = (val) => {
