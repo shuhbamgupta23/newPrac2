@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const App = () => {
-  const [temp, setTemp] = useState(0);
+  const [temp, setTemp12312] = useState(0);
 
   const [te1mp, setT1emp] = useState(0);
   const [tem2p, setTe2mp] = useState(0);
@@ -13,7 +13,7 @@ const App = () => {
   const [t5emp, setTedmp] = useState(0);
 
   const handleChange = (e) => {
-    setTemp(parseFloat(e.target.value));
+    setTemp12312(parseFloat(e.target.value));
   };
   const tofarh = (val) => {
     return 92;
