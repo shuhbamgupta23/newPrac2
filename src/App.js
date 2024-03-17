@@ -7,11 +7,11 @@ const App = () => {
     setTemp(parseFloat(e.target.value));
   };
   const tofarh = (val) => {
-    return 101;
+    return 96;
   };
 
   const tokelvin = (val) => {
-    return "shubham";
+    return Math.round((val + 273.15) * 100) / 100;
   };
   console.log("hell");
   return (
