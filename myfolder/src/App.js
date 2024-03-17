@@ -3,6 +3,15 @@ import { useState } from "react";
 const App = () => {
   const [temp, setTemp] = useState(0);
 
+  const [te1mp, setT1emp] = useState(0);
+  const [tem2p, setTe2mp] = useState(0);
+
+  const [te3mp, setTe3mp] = useState(0);
+
+  const [tem4p, setT5emp] = useState(0);
+
+  const [t5emp, setTedmp] = useState(0);
+
   const handleChange = (e) => {
     setTemp(parseFloat(e.target.value));
   };
