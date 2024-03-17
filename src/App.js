@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 const App = () => {
-
   const [temp, setTemp] = useState(0);
 
-  const handleChange = (e)=>{
-    setTemp(parseFloat(e.target.value))
-  }
-  const tofarh = (val) => { 
-    return 69;
+  const handleChange = (e) => {
+    setTemp(parseFloat(e.target.value));
   };
+  const tofarh = (val) => {
+    return 96;
+  };
+
   const tokelvin = (val) => {
     return "shubham";
   };
