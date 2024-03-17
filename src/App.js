@@ -10,10 +10,6 @@ const App = () => {
     return 92;
   };
 
-  const tokelvin = (val) => {
-    return "sahil";
-  };
-  console.log("hell");
   return (
     <div>
       <form>
@@ -27,7 +23,7 @@ const App = () => {
         <label for="input">°C</label>
       </form>
       <p data-testid="output">
-        {temp}°C is {tofarh(temp)}°F and {tokelvin(temp)}K.
+        {temp}°C is {tofarh(temp)}°F K.
       </p>
     </div>
   );
